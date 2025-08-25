@@ -1,4 +1,11 @@
 # shelfie-app
-A React Native demo application using Expo and Typescript.
+My first React Native application using TypeScript and Expo.
 
-![Shelfie Logo](./assets/img/shelfie-logo.png)
+* Home Page
+![Shelfie Home](./assets/home-page.png)
+
+* About Page
+![Shelfie About](./assets/about-page.png)
+
+* Contact Page
+![Shelfie Contact](./assets/contact-page.png)
