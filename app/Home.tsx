@@ -18,6 +18,7 @@ const Home: React.FC = () => {
       </View>
 
       <Link href="/About" style={styles.link}>About Page</Link>
+      <Link href="/Contact" style={styles.link}>Contact Page</Link>
     </View>
   );
 };
@@ -41,6 +42,7 @@ const styles = StyleSheet.create({
     padding: 20,
     borderRadius: 10,
     boxShadow: "0 2px 4px rgba(0,0,0,0.8)",
+    marginBottom: 10,
   },
   img: {
     marginVertical: 20,
