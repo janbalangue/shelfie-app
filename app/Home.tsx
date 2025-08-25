@@ -1,7 +1,8 @@
 import { Image, StyleSheet, Text, View } from "react-native";
+import { Link } from "expo-router";
 import Logo from "../assets/img/shelfie-logo.png";
 
-const App: React.FC = () => {
+const Home: React.FC = () => {
   return (
     <View style={styles.container}>
       <Image source={Logo} style={styles.img} />
@@ -12,14 +13,16 @@ const App: React.FC = () => {
 
       <View style={styles.card}>
         <Text style={styles.title}>
-          Hello, this is an enthusiastic card! 😃
+          Heyyy 👋
         </Text>
       </View>
+
+      <Link href="/About" style={styles.link}>About Page</Link>
     </View>
   );
 };
 
-export default App;
+export default Home;
 
 const styles = StyleSheet.create({
   container: {
@@ -42,4 +45,10 @@ const styles = StyleSheet.create({
   img: {
     marginVertical: 20,
   },
-});
+  link: {
+    marginVertical: 10,
+    color: "#fff",
+    borderBottomWidth: 1,
+    borderBottomColor: "#fff",
+  },
+  });
